@@ -1,0 +1,56 @@
+// 1 . Declare four variables without assigning values and print them in console
+var a;
+var b;
+var c;
+var d;
+console.log(a,b,c,d);
+
+//output: undefined undefined undefined undefined
+
+// 2 .How to get value of the variable myvar as output
+
+//var myvar= 1;
+//console.log("myvar");
+
+var myvar= 1;
+console.log(myvar);
+
+//Declare variables to store your first name, last name, marital status, country and age in multiple lines
+
+var firstName;
+var lastName;
+var maritalStatus;
+var country;
+var age;
+
+//Declare variables to store your first name, last name, marital status, country and age in single lines
+
+var firstName,lastName,maritalStatus,country,age;
+console.log(firstName,lastName,maritalStatus,country,age);
+
+//Declare variables and assign string, boolean, undefined and null data types
+//I am 25 years old. 
+//You are 30 years old.
+
+/*Convert the string to integer
+
+parseInt()
+Number()
+Plus sign(+)
+*/
+var a = "100";
+console.log(typeof(a),a);
+var b =+a;
+console.log(typeof(b),b);
+var c = parseInt(a);
+console.log(typeof(c),c);
+var d = Number(a);
+console.log(typeof(d),d);
+
+
+//Write 6 statement which provide truthy & falsey values.
+
+
+
+
+
